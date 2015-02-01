@@ -1,39 +1,31 @@
 package zenodo_tests;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
+
+import oai_pmh.OaiPmh;
+
+import org.simpleframework.xml.Serializer;
+import org.simpleframework.xml.core.Persister;
 
 // BETA TESTING STAGE
 public class Main {
 
 	public static void main(String[] args) {
-		String listSets = "https://zenodo.org/oai2d?verb=ListSets";
-		String listRecords = "https://zenodo.org/oai2d?verb=ListRecords&metadataPrefix=oai_datacite3&set=openaire_data";
-		
+		String xmlUrl = "https://zenodo.org/oai2d?verb=ListRecords&metadataPrefix=oai_datacite3&set=openaire_data";
+		Serializer serializer = new Persister();
+
 		try {
-			URL objUrl = new URL(listRecords);
-			HttpURLConnection con = (HttpURLConnection) objUrl.openConnection();
-			BufferedReader in = new BufferedReader(
-			        new InputStreamReader(con.getInputStream()));
-			String inputLine;
-			StringBuffer response = new StringBuffer();
-	 
-			while ((inputLine = in.readLine()) != null) {
-				response.append(inputLine);
-			}
-			in.close();
-	 
-			//print result
-			System.out.println(response.toString());
-		} catch (MalformedURLException e) {
+			URL sourcerUrl = new URL(xmlUrl);
+	        BufferedReader source = new BufferedReader(
+	        new InputStreamReader(sourcerUrl.openStream()));
+			// Hay que modelar todo el xml en objetos, sino peta
+			// Hay que buscar si se pueden abrir URLs
+			OaiPmh example = serializer.read(OaiPmh.class, source);
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			System.out.println("PETO!!");
 			e.printStackTrace();
 		}
 	}
