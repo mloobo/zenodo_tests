@@ -5,12 +5,14 @@ import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Root;
 
 @Root
+/**
+ * More information about OAI protocol http://www.openarchives.org/OAI/openarchivesprotocol.html
+ * @author lobo
+ *
+ */
 public class OaiPmh {
 	@Element(required=false)
 	private String xmlns = "";
-	
-	/*@Element(name="xmlns:xsi")
-	private String xmlns_xsi = "";*/
 	
 	@Attribute(name="schemaLocation")
 	private String xsi_schemaLocation = "";
@@ -37,20 +39,6 @@ public class OaiPmh {
 	public void setXmlns(String xmlns) {
 		this.xmlns = xmlns;
 	}
-
-	/**
-	 * @return the xmlns_xsi
-	 */
-	/*public String getXmlns_xsi() {
-		return xmlns_xsi;
-	}
-
-	*//**
-	 * @param xmlns_xsi the xmlns_xsi to set
-	 *//*
-	public void setXmlns_xsi(String xmlns_xsi) {
-		this.xmlns_xsi = xmlns_xsi;
-	}*/
 
 	/**
 	 * @return the xsi_schemaLocation
