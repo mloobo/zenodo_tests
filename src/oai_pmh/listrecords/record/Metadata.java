@@ -10,4 +10,18 @@ public class Metadata {
 
 	@Element
 	private OaiDatacite oai_datacite;
+
+	/**
+	 * @return the oai_datacite
+	 */
+	public OaiDatacite getOai_datacite() {
+		return oai_datacite;
+	}
+
+	/**
+	 * @param oai_datacite the oai_datacite to set
+	 */
+	public void setOai_datacite(OaiDatacite oai_datacite) {
+		this.oai_datacite = oai_datacite;
+	}
 }

@@ -3,8 +3,11 @@ package zenodo_tests;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.util.Iterator;
 
 import oai_pmh.OaiPmh;
+import oai_pmh.listrecords.Record;
+import oai_pmh.listrecords.record.metadata.oaidatacite.payload.Resource;
 
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Persister;
@@ -20,8 +23,18 @@ public class Main {
 			URL sourcerUrl = new URL(xmlUrl);
 	        BufferedReader source = new BufferedReader(
 	        new InputStreamReader(sourcerUrl.openStream()));
-			// Hay que modelar todo el xml en objetos, sino peta
 			OaiPmh example = serializer.read(OaiPmh.class, source);
+			
+			System.out.println("Publications found: " + example.getListRecords().getList().size());
+			
+			System.out.println("TITLES FOUNDED");
+			Iterator<Record> records = example.getListRecords().getList().iterator();
+			while (records.hasNext()){
+				Record r = records.next();
+				Resource resource = r.getMetadata().getOai_datacite().getPayload().getResource();
+				
+				System.out.println(resource.getTitles());
+			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println("PETO!!");
