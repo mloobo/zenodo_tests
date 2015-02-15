@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/oairepository/oai2.xsl.v1.0" ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2015-02-01T16:46:13Z</responseDate><request verb="ListRecords" set="openaire_data" metadataPrefix="oai_datacite3">http://zenodo.org/oai2d</request><ListRecords>
+<record><header><identifier>oai:zenodo.org:1239</identifier><datestamp>2014-03-10T17:37:06Z</datestamp><setSpec>user-ecfunded</setSpec><setSpec>user-zenodo</setSpec><setSpec>openaire_data</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5281/ZENODO.1239</identifier>
+      <creators>
+        <creator>
+          <creatorName>Jahn, Najko</creatorName>
+          <affiliation>Bielefeld University Library</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Fenner, Martin</creatorName>
+          <affiliation>PLOS Article Level Metrics, Public Library of Science</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Dimitropoulos, Harry</creatorName>
+          <affiliation>MaDgIK Lab, University of Athens</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Schirrwagen, Jochen</creatorName>
+          <affiliation>Bielefeld University Library</affiliation>
+        </creator>
+      </creators>
+      <titles>
+        <title>Publication FP7 Funding Acknowledgment - PLOS OpenAIRE</title>
+      </titles>
+      <publisher>OpenAIRE Orphan Record Repository</publisher>
+      <publicationYear>2013</publicationYear>
+      <subjects>
+        <subject>Article-Level Metrics</subject>
+        <subject>Data mining</subject>
+        <subject>Statistical Computing Language R</subject>
+        <subject>funded research publications</subject>
+      </subjects>
+      <contributors>
+        <contributor contributorType="Funder">
+          <contributorName>European Commission</contributorName>
+          <nameIdentifier nameIdentifierScheme="info">info:eu-repo/grantAgreement/EC/FP7/246686</nameIdentifier>
+        </contributor>
+      </contributors>
+      <dates>
+        <date dateType="Issued">2013-04-03</date>
+        <date dateType="Issued">2013</date>
+      </dates>
+      <language>eng</language>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/1239</alternateIdentifier>
+      </alternateIdentifiers>
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.cern.ch/record/1239/files/dataset_plosopenr.zip</relatedIdentifier>
+      </relatedIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+        <rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">The dataset contains a sample of metadata describing papers published in PLOS and their identified grant agreement number of FP7 projects. A second file shows the frequency of FP7 grants. The sample was created in July 2012.</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><record><header><identifier>oai:zenodo.org:6881</identifier><datestamp>2014-03-10T17:37:29Z</datestamp><setSpec>user-zenodo</setSpec><setSpec>user-eui</setSpec><setSpec>openaire_data</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5281/zenodo.6881</identifier>
+      <creators>
+        <creator>
+          <creatorName>Bruszt, László</creatorName>
+          <affiliation>European University Institute, Florence</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Vedres, Balázs</creatorName>
+          <affiliation>Central European University, Budapest</affiliation>
+        </creator>
+      </creators>
+      <titles>
+        <title>Survey of Local Organisations and Economic Development in the Czech Republic, Hungary and Poland (2007).</title>
+      </titles>
+      <publisher>Zenodo</publisher>
+      <publicationYear>2013</publicationYear>
+      <subjects>
+        <subject>Economic development</subject>
+        <subject>external aid programmes</subject>
+        <subject>sociology of development</subject>
+        <subject>EU regional development</subject>
+      </subjects>
+      <dates>
+        <date dateType="Issued">2013-05-28</date>
+      </dates>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/6881</alternateIdentifier>
+      </alternateIdentifiers>
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6881/files/BrusztVedresData.sav</relatedIdentifier>
+      </relatedIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+        <rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">This survey, undertaken in 2007, covers 1,200 local organisations in the Czech Republic, Hungary and Poland.  Data cover two regions per country - one above and one below the average level of countrywide economic development (GDP, unemployment rate, rate of agriculture in GDP).  400 organisations per country (200 per region) are surveyed.  Organisations include firms, NGOs, municipalities and universities.</description>
+        <description descriptionType="Other">Full details of data collection and methodology are on pp.8-10 of Bruszt, László and Vedres, Balázs: 'Associating, mobilizing, politicizing: local developmental agency from without' in Theory and Society, Vol.42, Iss.1, pp.1-23, January 2013. DOI: 10.1007/s11186-012-9183-7</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><record><header><identifier>oai:zenodo.org:6915</identifier><datestamp>2014-03-10T17:37:31Z</datestamp><setSpec>user-zenodo</setSpec><setSpec>openaire_data</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.6084/m9.figshare.714141</identifier>
+      <creators>
+        <creator>
+          <creatorName>Blasco-Gil, Yolanda</creatorName>
+          <affiliation>Universidad de Valencia</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Peset, Fernanda</creatorName>
+          <affiliation>Universidad Politécnica de Valencia</affiliation>
+        </creator>
+        <creator>
+          <creatorName>González, Luis-Millán</creatorName>
+          <affiliation>Universidad de Valencia</affiliation>
+        </creator>
+      </creators>
+      <titles>
+        <title>JCR Journals, sorted by Impact Factor 2011 with the JCR edition indication</title>
+      </titles>
+      <publisher>Zenodo</publisher>
+      <publicationYear>2013</publicationYear>
+      <subjects>
+        <subject>Journals Citations Reports</subject>
+        <subject>Indexed journals 2011</subject>
+        <subject>Impact Factor</subject>
+        <subject>bibliometrics</subject>
+        <subject>journals</subject>
+      </subjects>
+      <dates>
+        <date dateType="Issued">2013-06-07</date>
+      </dates>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/6915</alternateIdentifier>
+      </alternateIdentifiers>
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6915/files/JCRjourn.xls</relatedIdentifier>
+      </relatedIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+        <rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">Description of the spreadsheet:
+“Journals in JCR sorted by IF’11” lists the journals from Thomson Reuters JCR website; it’s sorted by edition (science and social science) and Impact Factor 2011 descending (but not difunded). Fields: Abbreviated Journal title, ISSN, JCR ed. 
+
+Methodology: 
+1.	We copy and paste from the web pages the list in a unique spreadsheet. 
+2.	We agregate the JCR edition: SCI=1 and SSCI=2. 
+3.	We sort by Edition and Impact Factor and delete this column values.
+4.	We upload the excel file to data banks</description>
+        <description descriptionType="Other">http://www.datasea.es/</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><record><header><identifier>oai:zenodo.org:6951</identifier><datestamp>2014-03-10T17:37:34Z</datestamp><setSpec>user-zenodo</setSpec><setSpec>openaire_data</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5281/zenodo.6951</identifier>
+      <creators>
+        <creator>
+          <creatorName>Keller-Rudek, Hannelore, Max-Planck Institute for Chemistry, Mainz, Germany</creatorName>
+        </creator>
+        <creator>
+          <creatorName>Moortgat, Geert K., Max-Planck Institute for Chemistry, Mainz, Germany</creatorName>
+        </creator>
+        <creator>
+          <creatorName>Sander, Rolf, Max-Planck Institute for Chemistry, Mainz, Germany</creatorName>
+        </creator>
+        <creator>
+          <creatorName>Sörensen, Rüdiger, Max-Planck Institute for Chemistry, Mainz, Germany</creatorName>
+        </creator>
+      </creators>
+      <titles>
+        <title>The MPI-Mainz UV/VIS Spectral Atlas of Gaseous Molecules</title>
+      </titles>
+      <publisher>Zenodo</publisher>
+      <publicationYear>2013</publicationYear>
+      <subjects>
+        <subject>cross sections</subject>
+        <subject>quantum yields</subject>
+      </subjects>
+      <dates>
+        <date dateType="Issued">2013-06-24</date>
+      </dates>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/6951</alternateIdentifier>
+      </alternateIdentifiers>
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6951/files/uv-vis-spectral-atlas-2013-06-24.zip</relatedIdentifier>
+      </relatedIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+        <rights rightsURI="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">This archive contains a frozen snapshot of all cross section and
+quantum yield data files from the MPI-Mainz UV/VIS Spectral Atlas of
+Gaseous Molecules. To view the data, open the files cross_sections.html
+and quantum_yields.html in your browser.
+
+The up-to-date version of the Spectral Atlas is available at:
+
+http://www.uv-vis-spectral-atlas-mainz.org</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><record><header><identifier>oai:zenodo.org:6955</identifier><datestamp>2014-03-10T17:37:34Z</datestamp><setSpec>openaire_data</setSpec><setSpec>user-zenodo</setSpec><setSpec>user-transcription-historical-sources</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5281/zenodo.6955</identifier>
+      <creators>
+        <creator>
+          <creatorName>Bijl, Leo</creatorName>
+        </creator>
+      </creators>
+      <titles>
+        <title>VAARTIJDENBOEK M.S. CORNELIS PRINS, 1E HELFT: REGELGEVING.</title>
+      </titles>
+      <publisher>Zenodo</publisher>
+      <publicationYear>2013</publicationYear>
+      <subjects>
+        <subject>familieonderzoek</subject>
+        <subject>scheepvaart</subject>
+        <subject>bedrijven</subject>
+        <subject>teksten</subject>
+        <subject>wetgeving</subject>
+      </subjects>
+      <dates>
+        <date dateType="Issued">2013-06-26</date>
+      </dates>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/6955</alternateIdentifier>
+      </alternateIdentifiers>
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6955/files/1202.pdf</relatedIdentifier>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6955/files/VAARTIJDENBOEK_M.S._CORNELIS_PRINS_1E_HELFT_REGELGEVING.zip</relatedIdentifier>
+      </relatedIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+        <rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">Het vaartijdenboek is bijgehouden tussen 1968 en 1981. Het eerste gedeelte t/m pag. 50 bevat de regelgeving in het Duits, Nederlands en Frans.
+Dit deel is nu digitaal beschikbaar voor tekstonderzoek. Het vervolg is het ingevulde vaartijdenregister zelf. Dit zal t.z.t. eveneens digitaal beschikbaar komen. Het archiefstuk is in particulier bezit.
+Het archief van het bedrijf bevindt zich bij de archiefdienst van de gemeente Rotterdam</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><record><header><identifier>oai:zenodo.org:6956</identifier><datestamp>2014-03-10T17:37:34Z</datestamp><setSpec>user-zenodo</setSpec><setSpec>openaire_data</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5281/zenodo.6956</identifier>
+      <creators>
+        <creator>
+          <creatorName>Sander, R.</creatorName>
+          <affiliation>Air Chemistry Department, Max-Planck Institute of Chemistry, P.O.~Box 3060, 55020 Mainz, Germany</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Pszenny, A. A. P.</creatorName>
+          <affiliation>University of New Hampshire, Durham, USA</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Keene, W. C.</creatorName>
+          <affiliation>Department of Environmental Sciences, University of Virginia, Charlottesville, VA 22904, USA</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Crete, E.</creatorName>
+          <affiliation>University of New Hampshire, Durham, USA. Now at: The Earth Institute, Columbia University, NY, USA</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Deegan, B.</creatorName>
+          <affiliation>Mount Washington Observatory, North Conway, New Hampshire, USA. Now at: 97 Raymond St., Fairhaven, MA, USA</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Long, M. S.</creatorName>
+          <affiliation>Department of Environmental Sciences, University of Virginia, Charlottesville, VA 22904, USA. Now at: Harvard University, Cambridge, MA</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Maben, J. R.</creatorName>
+          <affiliation>Department of Environmental Sciences, University of Virginia, Charlottesville, VA 22904, USA</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Young, A. H.</creatorName>
+          <affiliation>University of New Hampshire, Durham, USA</affiliation>
+        </creator>
+      </creators>
+      <titles>
+        <title>Gas phase acid, ammonia and aerosol ionic and trace element concentrations at Cape Verde during the Reactive Halogens in the Marine Boundary Layer (RHaMBLe) 2007 intensive sampling period</title>
+      </titles>
+      <publisher>Zenodo</publisher>
+      <publicationYear>2013</publicationYear>
+      <dates>
+        <date dateType="Issued">2013-06-27</date>
+      </dates>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/6956</alternateIdentifier>
+      </alternateIdentifiers>
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6956/files/cv_data_files.zip</relatedIdentifier>
+      </relatedIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+        <rights rightsURI="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">The data files are in NASA Ames Format. A full description of the data
+set has been submitted to Earth System Science Data
+(http://www.earth-system-science-data.net/).</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><record><header><identifier>oai:zenodo.org:6957</identifier><datestamp>2014-03-10T17:37:34Z</datestamp><setSpec>user-zenodo</setSpec><setSpec>openaire_data</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5281/zenodo.6957</identifier>
+      <creators>
+        <creator>
+          <creatorName>Herrero-Solana, Víctor</creatorName>
+          <affiliation>Univ Granada, Spain</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Trillo-Domínguez</creatorName>
+          <affiliation>Univ Granada, Spain</affiliation>
+        </creator>
+      </creators>
+      <titles>
+        <title>Information about Twitter account of spanish journalists and mass media</title>
+      </titles>
+      <publisher>Zenodo</publisher>
+      <publicationYear>2013</publicationYear>
+      <subjects>
+        <subject>Spain, Twitter, Journalism, Mass Media</subject>
+      </subjects>
+      <dates>
+        <date dateType="Issued">2013-06-30</date>
+      </dates>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/6957</alternateIdentifier>
+      </alternateIdentifiers>
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6957/files/SpanishTwitterMedia-JUN2013.xlsx</relatedIdentifier>
+      </relatedIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+        <rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">Excel file with a list of 116 spanish journalists Twitter accounts. All of them are director of mass media (newspaper, radio, TV, et.al). We include: director name, media name, account name, numbers of tweets, number of followings, number of followers, ratio, et.al. This data is both for directors and media accounts. Extracted from Twitter on June 2013.</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><record><header><identifier>oai:zenodo.org:6960</identifier><datestamp>2014-03-10T17:37:34Z</datestamp><setSpec>user-elife</setSpec><setSpec>openaire_data</setSpec><setSpec>user-zenodo</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5281/zenodo.6960</identifier>
+      <creators>
+        <creator>
+          <creatorName>Franco, Luis</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Bucasas, Kristine</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Wells, Janet</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Nino, Diane</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Wang, Xueqing</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Zapata, Gladys</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Chen, Edward</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Zamora, Pavel</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Arden, Nancy</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Renwick, Alexander</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Yu, Peng</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Quarles, John</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Bray, Molly</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Couch, Robert</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Belmont, John</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Shaw, Chad</creatorName>
+          <affiliation>Baylor College of Medicine</affiliation>
+        </creator>
+      </creators>
+      <titles>
+        <title>"interactive" version of data associated with the eLife paper  "Integrative genomic analysis of the human immune response to influenza vaccination"</title>
+      </titles>
+      <publisher>Zenodo</publisher>
+      <publicationYear>2013</publicationYear>
+      <dates>
+        <date dateType="Accepted">2013-07-09</date>
+        <date dateType="Available">2013-07-16</date>
+      </dates>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/6960</alternateIdentifier>
+      </alternateIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/embargoedAccess">Embargoed Access</rights>
+        <rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">This archive contains an "interactive" version of data associated with the eLife paper
+
+"Integrative genomic analysis of the human immune response to influenza vaccination"
+
+by
+
+Luis M Franco, Kristine L Bucasas, Janet M Wells, Diane Niño, Xueqing Wang, Gladys E Zapata, Nancy Arden, Alexander Renwick, Peng Yu, John M Quarles, Molly S Bray, Robert B Couch, John W Belmont, Chad A Shaw
+
+http://dx.doi.org/10.7554/eLife.00299 (doi:10.7554/eLife.00299)
+
+Installation:
+
+(1) Download the rar file, link available from the paper.
+
+
+(2) Unrar the file:
+
+Mac OS X: Use UnRarX - http://www.unrarx.com
+Linux : unrar command -  http://en.wikipedia.org/wiki/Unrar
+
+
+(3) Open the file "vaxgenomics.htm" in your favorite browser use File&gt;Open :
+
+Once opened in your browser, you should see a "Circos"-style circular plot of the data, and links to the tables and figures used in this application.
+
+Each table includes a link-out from GeneID to the Entrez entry for that Gene as well as additional links to the data. The link to Entrez requires access to NCBI, so will only work if you have Internet availability for this to work.  All other links point to content contained within the application/archive.
+
+
+(4) Figures:
+
+High-resolution copies of the figures included in the paper.
+
+Fig 1: eQTL profile of flu vaccination response.    Markers associated with 
+cis gene expression identified in the discovery cohort were replicated in a 
+vaidation cohort and -log10 p-values for both data sets are shown in the 
+genome wide circularized graphic.
+
+Fig 2:  Effect of the treatment on eQTL assocation.  We observed that the pattern of association between gene expression and SNP changed over time after vaccination.  Panel A of this figure shows this phenomena for a single gene NECAB2.  Panel B shows the aggregate character of this phenomena across large numbers of markers.  The change in R2 compared to the initial time point is depicted; this change in R squared appears to correspond to an increase the magnitude of the slope (additive association with genotype).
+
+Fig 3: Pathways and processes identified as enriched in our candidates.  Both
+Ingenuity IPA Analysis and GO and KEGG pathway databases were used.  Heavily 
+implicated immunologic response classes are repsresented.
+
+Fig 4: Human immune response as measured by our Antibody Response scores are
+correlated with gene expression changes, and these patterns are recapituoated
+in discovery and validation (male/female) cohorts.
+
+Fig 5: Immune cellular context of the genes identifeies in our eQTL and immune
+response analysis.     A striking number of our validated genes occuue in the
+antigen processing and presentatio pnthway.
+
+Fig 6: Q-Q plot depicting that the strength of association between genotype and phenotype (titer response) is stronger for markers that have a SNP association with expression and where expression is associated with titer response than would be expected for random SNPs.
+
+Fig 7: Causal and Reactive Model Analyses.    Three-way association between
+genotype, expression and trait.  Our data are more consistent with a causal relationship compared to reactive, but the results are not definitive.  We explored the sample size necessary to investigate this in the supplement.   
+
+Fig 8: Diagram demonstrating the experimental design of this study.
+
+Fig 9: Population structure analysis performed on our cohort using the genome 
+wide SNP data confirms the European ancestry and ethnic homogeoneity of our
+ty sample
+
+Fig 10: Schematic of the eQTL analysis.    The time course of gene expression
+change is integrated with a single model considering effects of Day, Genotype,
+Day-Genotype interaction and random effects for each individual to account for
+the longitudinal nature of the design.
+
+email: cashaw@bcm.edu with questions or comments.</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><record><header><identifier>oai:zenodo.org:6966</identifier><datestamp>2014-03-10T17:37:34Z</datestamp><setSpec>user-zenodo</setSpec><setSpec>openaire_data</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5281/zenodo.6966</identifier>
+      <creators>
+        <creator>
+          <creatorName>Herrero-Solana, Victor</creatorName>
+          <affiliation>Univ Granada</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Arboledas, Luis</creatorName>
+          <affiliation>Univ Granada</affiliation>
+        </creator>
+        <creator>
+          <creatorName>Legeren-Alvarez, Elisa</creatorName>
+          <affiliation>Univ Granada</affiliation>
+        </creator>
+      </creators>
+      <titles>
+        <title>News of CanalUGR tracked on Google News, Yahoo! News and Bing News</title>
+      </titles>
+      <publisher>Zenodo</publisher>
+      <publicationYear>2013</publicationYear>
+      <subjects>
+        <subject>CanalUGR</subject>
+        <subject>Google News</subject>
+        <subject>Yahoo! News</subject>
+        <subject>Bing News</subject>
+      </subjects>
+      <dates>
+        <date dateType="Issued">2013-07-03</date>
+      </dates>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/6966</alternateIdentifier>
+      </alternateIdentifiers>
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6966/files/CanalUGR.csv</relatedIdentifier>
+      </relatedIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+        <rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">Dataset contains 613 news of CanalUGR (University of Granada Communication Office) tracked on the main online news aggregators (Google News, Yahoo! News and Bing News). We include: number in CanalUGR, media, country, type.</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><record><header><identifier>oai:zenodo.org:6979</identifier><datestamp>2014-03-10T17:37:35Z</datestamp><setSpec>user-transcription-historical-sources</setSpec><setSpec>user-zenodo</setSpec><setSpec>openaire_data</setSpec></header><metadata><oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.0/ http://schema.datacite.org/oai/oai-1.0/oai.xsd">
+  <isReferenceQuality>true</isReferenceQuality>
+  <schemaVersion>3.1</schemaVersion>
+  <datacentreSymbol>CERN.ZENODO</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5281/zenodo.6979</identifier>
+      <creators>
+        <creator>
+          <creatorName>Bijl, Leo</creatorName>
+        </creator>
+      </creators>
+      <titles>
+        <title>Persoonsgegevens uit diverse archiefstukken. Deel I.</title>
+      </titles>
+      <publisher>Zenodo</publisher>
+      <publicationYear>2013</publicationYear>
+      <subjects>
+        <subject>genealogy</subject>
+        <subject>family history</subject>
+        <subject>onomastics</subject>
+      </subjects>
+      <dates>
+        <date dateType="Issued">2013-07-07</date>
+      </dates>
+      <resourceType resourceTypeGeneral="Dataset"/>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">http://zenodo.org/record/6979</alternateIdentifier>
+      </alternateIdentifiers>
+      <relatedIdentifiers>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6979/files/Dossier_1_persoonsgegevens_uit_diverse_stukken.zip</relatedIdentifier>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6979/files/Dossier_2_persoonsgegevens_uit_diverse_stukken.zip</relatedIdentifier>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6979/files/Lijst_van_achternamen_1.pdf</relatedIdentifier>
+        <relatedIdentifier relationType="HasPart" relatedIdentifierType="URL">http://zenodo.org/record/6979/files/Lijst_van_achternamen_2.pdf</relatedIdentifier>
+      </relatedIdentifiers>
+      <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+        <rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0 Universal</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Abstract">Verspreide werknotities van genealogische aard.Toegang op achternamen (of patroniemen): elke voorkomende naam wordt één maal in de lijsten vermeld. Controle in de bronnen wordt geadviseerd.
+(Various notes of genealogical nature with list of names; check original sources)</description>
+        <description descriptionType="Other">Oud dossier. Na digitalisering zijn de oorspronkelijke papieren records vernietigd (records on paper have been destroyed after digitisation).</description>
+      </descriptions>
+    </resource>
+  </payload>
+</oai_datacite>
+</metadata></record><resumptionToken cursor="0" completeListSize="408" expirationDate="2015-02-02T17:46:13Z">openaire_data___eL14So</resumptionToken></ListRecords>
+</OAI-PMH>
+
+
