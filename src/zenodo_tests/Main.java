@@ -21,7 +21,6 @@ public class Main {
 	        BufferedReader source = new BufferedReader(
 	        new InputStreamReader(sourcerUrl.openStream()));
 			// Hay que modelar todo el xml en objetos, sino peta
-			// Hay que buscar si se pueden abrir URLs
 			OaiPmh example = serializer.read(OaiPmh.class, source);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
